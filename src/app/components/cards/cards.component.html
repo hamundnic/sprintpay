@@ -1,0 +1,94 @@
+<div *ngIf="this.Positions && !this.cards && !this.wallet">
+    <mat-card [ngClass]="{'example-card':!this.cards,'example-card2':this.cards}">
+        <mat-card-header *ngIf="this.Positions">
+            <mat-card-title>{{images[2]['title'] | uppercase}}</mat-card-title>
+        </mat-card-header>
+
+        <img *ngIf="this.Positions" mat-card-image src="{{images[2]['img']}}" alt="SprintPay">
+
+        <mat-card-content *ngIf="this.Positions">
+            <p>
+                {{images[2]['desc']}}
+            </p>
+        </mat-card-content>
+        <!--<mat-card-actions>
+            <button mat-button>LIKE</button>
+            <button mat-button>SHARE</button>
+        </mat-card-actions>-->
+    </mat-card>
+</div>
+
+<div *ngIf="!this.Positions && !this.wallet">
+    <mat-card [ngClass]="{'example-card':!this.cards,'example-card2':this.cards}">
+        <mat-card-header *ngIf="!this.Positions">
+            <mat-card-title>{{images[0]['title'] | uppercase}}</mat-card-title>
+        </mat-card-header>
+
+        <img *ngIf="!this.Positions" mat-card-image src="{{images[0]['img']}}" alt="SprintPay">
+
+        <mat-card-content *ngIf="!this.Positions">
+            <p>
+                {{images[0]['desc']}}
+            </p>
+        </mat-card-content>
+        <!--<mat-card-actions>
+            <button mat-button>LIKE</button>
+            <button mat-button>SHARE</button>
+        </mat-card-actions>-->
+    </mat-card>
+</div>
+<div *ngIf="this.Positions==='center'">
+    <mat-card [ngClass]="{'example-card2':this.cards}">
+        <mat-card-header>
+            <mat-card-title *ngIf="this.Positions==='center'">{{images[1]['title'] | uppercase}}</mat-card-title>
+        </mat-card-header>
+
+        <img *ngIf=" this.Positions==='center'" mat-card-image src="{{images[1]['img']}}" alt="SprintPay">
+
+        <mat-card-content *ngIf=" this.Positions==='center'">
+            <p>
+                {{images[1]['desc']}}
+            </p>
+        </mat-card-content>
+        <!--<mat-card-actions>
+            <button mat-button>LIKE</button>
+            <button mat-button>SHARE</button>
+        </mat-card-actions>-->
+    </mat-card>
+</div>
+<div class="wallet" *ngIf="this.wallet">
+    <div *ngFor="let wallet of images[3]['wallets']">
+        <mat-card id="wallet" [ngClass]="{'wallet-card ':this.cards}">
+            <mat-card-header>
+                <mat-card-title>{{wallet['title'] }}</mat-card-title>
+            </mat-card-header>
+            <div class="imgContent">
+                <img mat-card-image src="{{wallet['img']}}" alt="{{wallet['title']}}">
+            </div>
+
+
+            <mat-card-content>
+                <p>
+                    {{wallet['desc']}}
+                </p>
+            </mat-card-content>
+            <mat-card-actions id="card-action">
+                <div class="container">
+                    <h1>{{wallet['title']}}</h1>
+                    <div class="row">
+                        <div class="col"></div>
+                    </div>
+                    <div class="row btnDownload">
+                        <button mat-raised-button color="primary">Download</button>
+                    </div>
+                </div>
+
+
+
+            </mat-card-actions>
+        </mat-card>
+
+
+    </div>
+
+</div>

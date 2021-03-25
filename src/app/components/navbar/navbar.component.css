@@ -1,0 +1,44 @@
+mat-toolbar {
+    background: #28536b;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    z-index: 999;
+}
+
+#navLogo {
+    display: flex;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+img {
+    width: 3.7rem;
+    height: 3.7rem;
+    margin: -1.4rem 1rem 0 0;
+    border-radius: 50%;
+}
+
+a {
+    margin: 0.2rem;
+    height: 0.8rem;
+    color: white;
+    padding: 0.1rem;
+}
+
+mat-nav-list .list-horizontal .mat-list-item {
+    padding-right: 0.3rem;
+    display: inline-block;
+    height: 3.7rem;
+    width: auto;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+a,
+mat-nav-list .list-horizontal .mat-list-item::after :hover {
+    background: #26ceda;
+}

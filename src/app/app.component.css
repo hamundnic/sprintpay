@@ -1,0 +1,21 @@
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    overflow-y: clip;
+    margin: 0px;
+}
+
+.footer {
+    width: 102%;
+    height: 100%;
+    display: inline-block;
+    background: black;
+}

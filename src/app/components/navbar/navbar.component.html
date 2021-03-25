@@ -1,0 +1,10 @@
+<mat-toolbar>
+    <a id="navLogo" routerLink="/home"> <img src="../../../assets/img/logo.jpg" alt="SpritLogo">
+        <span>SprintPay</span></a>
+    <span class="example-spacer"></span>
+
+    <mat-nav-list class="list-horizontal" *ngFor="let button of buttons">
+        <a mat-list-item [routerLink]="['/' + button]"> {{ button|uppercase }}</a>
+    </mat-nav-list>
+
+</mat-toolbar>

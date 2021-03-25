@@ -1,0 +1,76 @@
+mat-tab-group {
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 65%;
+    top: 0;
+    left: 0;
+}
+
+.example-card {
+    position: absolute;
+    max-width: 440px;
+    right: 1%;
+    top: 2%;
+    padding-bottom: -6%;
+}
+
+.example-header-image {
+    background-image: url('../../../assets/img/Sprint.jpg');
+    background-size: cover;
+    padding-bottom: 5%;
+}
+
+.example-large-box {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    padding: 16px;
+    border-radius: 8px;
+    height: 460px;
+    width: 94%;
+    background: #2260d3;
+    color: whitesmoke;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-justify: auto;
+}
+
+.bodyCard {
+    position: absolute;
+    text-align: center;
+    text-justify: center;
+    word-break: break-all;
+    width: 47%;
+    margin: 5%;
+    left: 0;
+}
+
+.bodyPic {
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    border-radius: 10px;
+    right: 3%;
+    margin: 0;
+}
+
+.bodyPic>img {
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    right: 3%;
+    top: 8%;
+    padding: 2%;
+    border: 2px solid black;
+    box-sizing: content-box;
+    border-radius: 5px;
+}
+
+.title {
+    position: absolute;
+    left: 5%;
+    text-decoration: underline;
+}

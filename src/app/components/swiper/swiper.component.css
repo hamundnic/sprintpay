@@ -1,0 +1,37 @@
+html,
+body {
+    position: relative;
+    height: 50%;
+}
+
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-wrapper-container {
+    display: flex;
+    position: absolute;
+    width: 80%;
+    height: 350px;
+    margin: 50px 0 0 0 auto;
+    z-index: 99;
+}
+
+.swiper-container {
+    width: 300px;
+    height: 300px;
+    left: 25%;
+    bottom: 5%;
+    padding: 3%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 2px 2px black;
+}
