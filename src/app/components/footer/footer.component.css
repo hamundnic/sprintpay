@@ -12,6 +12,7 @@ footer {
 
 .main-footer,
 nav {
+    letter-spacing: normal;
     display: flex;
     position: relative;
     flex-direction: column;
