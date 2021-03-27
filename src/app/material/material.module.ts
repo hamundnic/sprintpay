@@ -10,6 +10,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatTableModule} from '@angular/material/table';
+
 @NgModule({
   declarations: [],
   imports: [
@@ -22,7 +23,8 @@ import {MatTableModule} from '@angular/material/table';
     MatTabsModule,
     MatButtonModule,
     MatButtonToggleModule,
-    MatExpansionModule,
+    MatExpansionModule
+
 
   ],
   exports: [
@@ -36,6 +38,7 @@ import {MatTableModule} from '@angular/material/table';
     MatButtonToggleModule,
     MatExpansionModule,
     MatTableModule
+
 
   ]
 })

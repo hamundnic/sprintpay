@@ -1,7 +1,7 @@
 .container {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 #main {
@@ -15,7 +15,6 @@
 
 .footer {
     width: 102%;
-    height: 100%;
     display: inline-block;
     background: black;
 }

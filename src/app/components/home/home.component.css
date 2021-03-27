@@ -72,7 +72,7 @@ app-swiper {
 .mainLayout {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background: #0C8CED;
 }
 
@@ -117,11 +117,11 @@ app-swiper {
 }
 
 .left-poligon {
-    margin-top: 5%;
+    margin-top: 8%;
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 5%;
+    left: 10%;
 }
 
 .left-poligon-2 {
@@ -132,7 +132,7 @@ app-swiper {
 }
 
 .right-poligon {
-    margin-top: 5%;
+    margin-top: 8%;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -213,18 +213,19 @@ app-swiper {
     padding: 5%;
 }
 
-#gridForth {
+
+/*#gridForth {
     background: #011936;
     margin: 12% 0 0 12%;
-}
+}*/
 
 #gridFifh {
     display: flex;
     position: absolute;
     background: #011936;
-    margin-left: 5%;
-    margin-top: 10%;
-    margin-bottom: 0;
+    margin-left: 10%;
+    margin-top: 25%;
+    margin-bottom: 10%;
 }
 
 .secondContainer {
@@ -239,9 +240,10 @@ app-swiper {
 }
 
 #gridssixth {
+    display: flex;
     background: #011936;
-    margin-left: 5%;
-    margin-top: 25%;
+    margin-top: 30%;
+    margin-left: 10%;
 }
 
 .slogan {
@@ -262,7 +264,6 @@ article {
     flex-shrink: unset;
     left: 5%;
     bottom: 0;
-    ;
 }
 
 .slogan>article>p {
@@ -388,6 +389,5 @@ app-carousel {
 }
 
 app-info {
-    margin-top: 15%;
-    width: 100% !important;
+    height: 85%;
 }

@@ -28,7 +28,8 @@ import { CardsComponent } from './components/cards/cards.component';
 import { InfoComponent } from './components/info/info.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 
-// felx-layout
+// http client module
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { TabsComponent } from './components/tabs/tabs.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    NgxUsefulSwiperModule
+    NgxUsefulSwiperModule,
+    HttpClientModule
     //SwiperModule
 
 

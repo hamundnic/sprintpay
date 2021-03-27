@@ -1,10 +1,10 @@
 html,
 body,
 footer {
-    position: relative;
+    position: absolute;
     display: flex;
-    height: 150px;
-    width: 100vw;
+    height: 250px;
+    width: 100%;
     text-align: center;
     justify-content: end;
     background: #28536b;
@@ -21,12 +21,27 @@ nav {
     bottom: 0 !important;
 }
 
+nav {
+    display: flex;
+}
+
 .main-footer__links {
     display: flex;
     list-style: none;
     text-align: center;
     align-items: center;
     text-align: center;
+}
+
+.social__links,
+#social {
+    width: 55%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    bottom: 0!important;
+    right: 0;
 }
 
 .main-footer__link {
@@ -44,4 +59,174 @@ nav {
 .main-footer__link a:hover,
 .main-footer__link a:active {
     color: #ccc;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.Walletlinks {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 20%;
+    top: 0;
+}
+
+.wallet__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    text-align: justify;
+}
+
+.Especlinks {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 40%;
+    top: 0;
+}
+
+.Learnlinks {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 60%;
+    top: 0;
+}
+
+.Rellinks {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 80%;
+    top: 0;
+}
+
+.espec__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    text-align: justify;
+}
+
+.learn__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    text-align: justify;
+}
+
+.rel__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    text-align: justify;
+}
+
+.follow {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: absolute;
+    text-decoration: underline;
+    color: goldenrod;
+    margin-right: 18%;
+    margin-bottom: 8%;
+}
+
+.external {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    width: auto;
+}
+
+.sprint__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    text-align: center;
+}
+
+.aRreserve {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+    height: auto;
+    width: auto;
+    color: white;
+    margin-left: 3px;
+}
+
+.fb {
+    color: blue;
+    border-radius: 50%;
+    border: 2px solid blue;
+    background-color: white;
+}
+
+.dd {
+    color: black;
+    border-radius: 50%;
+    border: 2px solid blue;
+    background-color: white;
+}
+
+.tw {
+    color: white;
+    border-radius: 50%;
+    border: 2px solid blue;
+    background-color: skyblue;
+}
+
+.gt {
+    color: black;
+    border-radius: 50%;
+    border: 2px solid blue;
+    background-color: white;
+}
+
+mat-icon {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: end;
+    width: 48px;
+    height: 48px;
+    padding: 5%;
+    bottom: 0;
 }

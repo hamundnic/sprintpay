@@ -1,9 +1,12 @@
 html,
 body {
     height: auto;
+    width: 100%;
 }
 
 .container {
+    width: 100%;
+    height: 100%;
     display: flex;
     margin-left: 10%;
     margin-top: 3%;
@@ -20,6 +23,7 @@ mat-accordion {
     margin: 2%;
     left: 5%;
     padding: 2%;
+    z-index: 1;
 }
 
 mat-expansion-panel {
