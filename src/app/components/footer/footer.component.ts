@@ -7,7 +7,7 @@ import { DomSanitizer } from "@angular/platform-browser";
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
- years:number;
+ years:any;
   constructor(private matIconRegistry: MatIconRegistry, private domSanitizer: DomSanitizer) {
    /* this.matIconRegistry.addSvgIcon(
       `discord`,
