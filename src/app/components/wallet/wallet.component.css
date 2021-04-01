@@ -6,11 +6,20 @@ body {
 }
 
 .container {
-    margin-top: 5%;
+    margin-top: 15%;
     margin-left: 5%;
     display: flex;
     flex-direction: row;
-    height: auto;
+    height: 100%;
     width: 100%;
     padding-bottom: 50%;
+}
+
+.cardTap {
+    position: absolute;
+    margin-top: 5%;
+}
+
+#cards {
+    margin-top: 25%;
 }
