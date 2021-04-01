@@ -14,8 +14,8 @@ body {
 
 mat-card {
     height: 60vh;
-    width: 100vw;
-    position: relative;
+    width: 100%;
+    position: absolute;
     margin-top: 5%;
     border-radius: 0;
     background: #004EBB;
@@ -54,6 +54,7 @@ app-swiper {
     align-items: center;
     width: 50%;
     margin-top: 1%;
+    margin-left: 0.5%;
     margin-bottom: 1%;
     padding-bottom: 1%;
     z-index: 1;
@@ -71,9 +72,11 @@ app-swiper {
 
 .mainLayout {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 90vh;
     background: #0C8CED;
+    margin-top: 38%;
+    margin-left: 0.5%;
 }
 
 #mainLayoutSecond {
@@ -86,6 +89,7 @@ app-swiper {
     height: 100%;
     background: #0C8CED;
     margin-top: 3%;
+    margin-left: 0.5%;
     padding-top: 3%;
     padding-bottom: 10%;
 }
