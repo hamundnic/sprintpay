@@ -1,0 +1,109 @@
+    html,
+    body {
+        height: auto;
+        width: 100%;
+    }
+
+    .first {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first>img {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        margin-top: 15%;
+        width: auto;
+        height: auto;
+        z-index: 99;
+        padding-bottom: 5%;
+        padding-right: 5%;
+    }
+
+    .quarter {
+        width: 64px;
+        height: 48px;
+        position: relative;
+        margin-left: 8%;
+        margin-top: 6%;
+        z-index: 999;
+        text-align: center;
+        font-size: 72px;
+        font-weight: 600;
+        font-style: bold;
+    }
+
+    .quarter>h3 {
+        font-size: 56px;
+        padding: 5%;
+        margin-top: 10%;
+        color: white;
+        text-shadow: black 2px 2px;
+    }
+
+    .legend {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+        color: white;
+        width: 12%;
+        margin-top: 6%;
+        margin-left: 12.5%;
+    }
+
+    .legend>h4 {
+        margin-bottom: 0;
+    }
+
+    .legend>p {
+        font-size: 11px;
+        margin-bottom: 10%;
+    }
+
+    .screenRow {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15%;
+    }
+
+    .screen {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .linea {
+        display: flex;
+        position: absolute;
+        top: 10%;
+        left: 16.5%;
+        padding: 5% 0 5% 0;
+    }
+
+    .part1 {
+        display: flex;
+        position: absolute;
+        height: auto;
+        margin-top: -20%;
+        left: 100%;
+    }
+
+    .main {
+        display: flex;
+        position: relative;
+        height: auto;
+        margin-left: 109%;
+    }
+
+    .part2 {
+        display: flex;
+        position: relative;
+        height: auto;
+        margin-left: 100%;
+    }
